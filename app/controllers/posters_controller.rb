@@ -10,4 +10,12 @@ class PostersController < ApplicationController
     # this will render './app/views/posters.index.html.erb'
     # the pattern is as follows: "./app/views/ << controller_name >> / << action_name.html.erb >>"
   end
+
+  def burd
+    render 'posters/expirement'
+  end
+
+  def team
+    render 'silly/goofball'
+  end
 end

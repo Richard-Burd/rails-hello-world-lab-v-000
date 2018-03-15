@@ -4,3 +4,10 @@
 require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
+
+desc 'a custom task can go here'
+namespace :aa do
+  task :aaa do
+    puts "a custom rake task can go here"
+  end
+end
